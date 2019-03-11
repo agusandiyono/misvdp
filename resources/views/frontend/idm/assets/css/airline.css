@@ -1,0 +1,3187 @@
+/* -----------------------------------------------------------
+    This CSS is Build For Flight Area
+    by Agus Ismail [mr.agus.ismail@gmail.com]
+    @2010
+----------------------------------------------------------- */
+
+/* -----------------------------------------------------------
+    content -> right -> box / forms search
+    search flight for horizontal menu
+----------------------------------------------------------- */
+
+.linktombol{
+    margin: 2px 0 0 2px;
+    display: block;
+    font-size: 100%;
+    padding: 2px 8px;
+    width: 50px;
+    border:1px solid #999;
+    background:#f1f1f1; 
+    text-decoration:none;
+    color:#003366;
+    cursor:pointer;
+}
+
+.linktomboldisabled{
+    margin: 2px 0 0 2px;
+    display: block;
+    font-size: 100%;
+    padding: 2px 8px;
+    width: 50px;
+    border:1px solid #dedede;
+    background:#fff; 
+    text-decoration:none;
+    color:#bb9fdd;
+    cursor:default;
+}
+
+.linktomboldisabled:hover{
+    background:#fff;
+    text-decoration:none;
+    color:#bb9fdd;
+}
+
+.linktombol:hover{
+    background:#f9f9f9; 
+    text-decoration:none;
+    color:#666;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / forms
+----------------------------------------------------------- */
+
+#content div.boxfilter
+{
+    margin: 5px 0 0 0;
+    padding: 0 0 10px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#content div.boxfilter div.formfilter
+{
+    margin: 0;
+    padding: 20px 20px 10px 20px;
+    clear: both;
+    overflow: hidden;
+    background-color: #800000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+}
+
+#content div.boxfilter div.formfilter select {
+    font-size: 11px;
+    padding: 5px;
+    font-family: verdana;
+}
+
+#content div.boxfilter div.formfilter select option {
+    font-size: 11px;
+    font-family: verdana;
+    letter-spacing: 0.3px;
+}
+
+#content div.boxfilter div.formfilter div.fields
+{
+    margin: 0;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field
+{
+    margin: 0;
+    padding: 4px 0 4px 0; 
+    height: 1%;
+    
+    clear: both;
+    overflow: hidden;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field-first
+{
+    padding: 0 0 4px 0; 
+}
+
+#content div.boxfilter div.formfilter div.fields div.field span.error
+{
+    margin: 8px 0 0 0;
+    padding: 0;
+    height: 1%;
+    display: block;
+    color: #FF0000;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field span.success
+{
+    margin: 8px 0 0 0;
+    padding: 0;
+    height: 1%;
+    display: block;
+    color: #316309;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> labels
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.label
+{
+    margin: 0;
+    padding: 8px 0 0 5px;
+    width: auto;
+    position: absolute !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.label,
+#content div.boxfilter-right div.formfilter div.fields div.field div.label
+{
+    left: 0;
+    margin: 0;
+    padding: 0 0 8px 0;
+    width: auto;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> label (select)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.label-select
+{
+    padding: 2px 0 0 5px;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.label-select,
+#content div.boxfilter-right div.formfilter div.fields div.field div.label-select
+{
+    padding: 0 0 8px 0;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> label (checkbox)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.label-checkbox
+{
+    padding: 0 0 0 5px;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> label (radio)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.label-radio
+{
+    padding: 0 0 0 5px;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> label (textarea)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.label-textarea
+{
+    padding: 0 0 0 5px;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.label-textarea,
+#content div.boxfilter-right div.formfilter div.fields div.field div.label-textarea
+{
+    padding: 0 0 8px 0;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> labels (label)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.label label
+{
+    color: #393939;
+    font-weight: bold;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.label span
+{
+    margin: 0;
+    padding: 2px 0 0 0;
+    height: 1%;
+    display: block;
+    color: #363636;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> input
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.input
+{
+    margin: 0 0 0 200px;
+    padding: 0;
+
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.input,
+#content div.boxfilter-right div.formfilter div.fields div.field div.input
+{
+    margin: 0;
+    padding: 7px 7px 6px 7px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input
+{
+    margin: 0;
+    padding: 7px 7px 6px 7px;
+    background: #FFFFFF;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 187px;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.input input,
+#content div.boxfilter-right div.formfilter div.fields div.field div.input input
+{
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.very_small
+{
+    width: 25px;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.smaller
+{
+    width: 13%;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.small
+{
+    width: 30%;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.medium
+{
+    width: 55%;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.large
+{
+    width: 85%;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.date
+{
+    width: 187px;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.button
+{
+    margin: 0;
+    padding: 4px 8px 4px 8px;
+    background: #D4D0C8;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+    color: #000000;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.error
+{
+    background: #FBE3E4;
+    border-top: 1px solid #e1b2b3;
+    border-left: 1px solid #e1b2b3;
+    border-right: 1px solid #FBC2C4;
+    border-bottom: 1px solid #FBC2C4;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input input.valid
+{
+    background: #E6EFC2;
+    border-top: 1px solid #cebb98;
+    border-left: 1px solid #cebb98;
+    border-right: 1px solid #c6d880;
+    border-bottom: 1px solid #c6d880;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input img.ui-datepicker-trigger
+{
+    margin: 0 0 0 6px;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> input (file styling)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.input a.ui-input-file
+{
+    margin: 0 0 0 6px;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    display: inline;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    background: #e5e3e3 url("../images/button_browse.png") no-repeat;
+    border: none;
+    text-decoration: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input a:hover.ui-input-file
+{
+    background: #e5e3e3 url("../images/button_browse_selected.png") no-repeat;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> textarea
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea
+{
+    margin: 0 0 0 200px;
+    padding: 10px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea-editor
+{
+    padding: 0;
+    border: 1px solid #dddddd;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.textarea,
+#content div.boxfilter-right div.formfilter div.fields div.field div.textarea
+{
+    margin: 0;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea textarea
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-width: 0;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    outline: none;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.field div.textarea textarea,
+#content div.boxfilter-right div.formfilter div.fields div.field div.textarea textarea
+{
+    width: 100%;
+    height: 100px;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea textarea.error
+{
+    padding: 3px 10px 10px 23px;
+    background-color: #FBE3E4;
+    background-image: url("../../images/icons/exclamation.png");
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    border: 1px solid #FBC2C4;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea textarea.success
+{
+    padding: 3px 10px 10px 23px;
+    background-color: #E6EFC2;
+    background-image: url("../../images/icons/accept.png");
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    border: 1px solid #C6D880;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> textarea (tinymce editor)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea table
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea table td
+{
+    padding: 0;
+    background: #DDDDDD;
+    border: none;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea table td table
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    border: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea table td table td
+{
+    padding: 5px 5px 5px 0;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea table td table td a
+{
+    border: none;    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.textarea table td table td a.mceButtonActive
+{
+    background: #b1b1b1;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> select
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.select
+{
+    margin: 0 0 0 200px;
+    padding: 0;
+    
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.select a:hover
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.select select
+{
+    margin: 0;
+    width: 203px;
+    height: 29px;
+    padding-top: 7px;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.input select
+{
+    margin: 0;
+    width: 203px;
+    height: 29px;
+    padding-top: 7px;
+}
+/* -----------------------------------------------------------
+    content -> right -> forms -> select (jquery styling)
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.select a.ui-selectmenu-focus
+{
+    border: 1px solid #666666;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.select a.ui-selectmenu  
+{
+    color: #565656; 
+    text-decoration: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.select a.ui-selectmenu:hover  
+{
+    color: #000000;
+    text-decoration: none; 
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.select a.ui-selectmenu-focus span.ui-icon
+{
+    background-image: url(../images/ui/ui-icons_222222_256x240.png);
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> element focus
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field input[type=text]:focus, 
+#content div.boxfilter div.formfilter div.fields div.field input[type=password]:focus,
+#content div.boxfilter div.formfilter div.fields div.field input[type=file]:focus,
+#content div.boxfilter div.formfilter div.fields div.field textarea:focus,
+#content div.boxfilter div.formfilter div.fields div.field select:focus 
+{
+    background: #f6f6f6;
+    border-color: #666;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> checkboxes
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.checkboxes
+{
+    margin: 0 0 0 200px;
+    padding: 0;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.checkboxes div.checkbox
+{
+    margin: 0;
+    padding: 2px 0 2px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.checkboxes div.checkbox input
+{
+    margin: 0;    
+    float: left;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.checkboxes div.checkbox label
+{
+    margin: 3px 0 0 4px;
+    height: 1%;
+    display: block;
+    float: left;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> radios
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.field div.radios
+{
+    margin: 0 0 0 200px;
+    padding: 0;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.radios div.radio
+{
+    margin: 0;
+    padding: 2px 0 2px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.radios div.radio input
+{
+    margin: 0;    
+    float: left;
+}
+
+#content div.boxfilter div.formfilter div.fields div.field div.radios div.radio label
+{
+    margin: 3px 0 0 4px;
+    height: 1%;
+    display: block;
+    float: left;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> buttons
+----------------------------------------------------------- */
+
+#content div.boxfilter div.formfilter div.fields div.buttons
+{
+    margin: 10px 0 0 200px;
+    padding: 0;
+}
+
+#content div.boxfilter-left div.formfilter div.fields div.buttons,
+#content div.boxfilter-right div.formfilter div.fields div.buttons
+{
+    margin: 10px 0 0 0;
+}
+
+#content div.boxfilter div.formfilter div.fields div.buttons input
+{
+    margin: 0;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> forms -> buttons (jquery styling)
+----------------------------------------------------------- */
+ 
+#content div.boxfilter div.formfilter div.fields div.buttons .ui-state-default
+{
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    background: #e5e3e3 url("../images/button.png") repeat-x;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #c6c6c6;
+    color: #515151;
+    outline: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.buttons .ui-state-hover
+{
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    background: #b4b4b4 url("../images/button_selected.png") repeat-x;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #afafaf;
+    color: #515151;
+    outline: none;
+}
+
+#content div.boxfilter div.formfilter div.fields div.buttons div.highlight
+{
+    display: inline;
+}
+
+#content div.boxfilter div.formfilter div.fields div.buttons div.highlight .ui-state-default
+{
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    background: #ffb001 url("../images/colors/orange/button_highlight.png") repeat-x;
+    border-top: 1px solid #fe8100;
+    border-left: 1px solid #fe8100;
+    border-right: 1px solid #fe8100;
+    border-bottom: 1px solid #fe8100;
+    color: #584c4e;
+}
+
+#content div.boxfilter div.formfilter div.fields div.buttons div.highlight .ui-state-hover
+{
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    background: #ffb001 url("../images/colors/orange/button_highlight_selected.png") repeat-x;
+    border-top: 1px solid #fe8100;
+    border-left: 1px solid #fe8100;
+    border-right: 1px solid #fe8100;
+    border-bottom: 1px solid #fe8100;
+    color: #FFFFFF;
+}
+
+/*form search book*/
+#content div.box_search div#book_search
+{
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    clear: both;
+    overflow: hidden;
+    background-color: #800000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+}
+
+#content div.box_search div#book_search div#search_book
+{
+    margin-top: 10px;
+    width: 100%;
+    clear: none;
+    float: left;
+}
+
+#content div.box_search div#book_search div#search_book div#primary
+{
+    display: block;
+    width: 100%;
+}
+
+#content div.box_search div#book_search div#search_book div#primary label
+{
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+#content div.box_search div#book_search div#search_book div#primary div.inputbook
+{
+    width: 20%;
+    clear: none;
+    float: left;
+}
+
+#content div.box_search div#book_search div#search_book div#primary div.inputbook input.small
+{
+    clear: none;
+    width: 90%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#book_search div#search_book div#primary div.inputbook select
+{
+    clear: none;
+    width: 90%;
+    height: 22px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#book_search div#search_book div#primary div#inputsearchFlght
+{
+    margin-top: 10px;
+    width: 15%;
+    clear: none;
+    float: right;
+}
+
+#content div.box_search div#book_search div#search_book div#primary div#inputsearchFlght input
+{
+    width: 100%;
+}
+
+/*form search flight*/
+#content div.box_search div#form_search
+{
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    clear: both;
+
+    min-height: 105px;
+    /*overflow: hidden;*/
+    background-color: #800000;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+}
+
+#content div.box_search div#form_search div#search_flght
+{
+    margin-top: 10px;
+    width: 100%;
+    clear: none;
+    float: left;
+}
+
+#content div.box_search div#form_search div#status_flght
+{
+    margin-top: 10px;
+    width: 33%;
+    clear: none;
+    float: right;
+}
+
+#content div.box_search div#form_search div#status_flght div#status_flght_box
+{
+    height: 140px;
+    background: #9d3c3c;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#content div.box_search div#form_search div#status_flght div#status_flght_box div#flight_status_left
+{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 96%;
+    clear: none;
+    float: left;
+}
+
+#content div.box_search div#form_search div#status_flght div#status_flght_box div#flight_status_left span, #content div.box_search div#form_search div#status_flght div#status_flght_box div#flight_status_right span
+{
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+#content div.box_search div#form_search div#status_flght div#status_flght_box div#flight_status_right
+{
+    /*margin-top: 10px;
+    margin-left: 10px;
+    width: 46%;
+    clear: none;
+    float: left;*/
+}
+
+#content div.box_search div#form_search div#search_flght div#primary
+{
+    display: block;
+    width: 100%;
+}
+
+#content div.box_search div#form_search div#search_flght div#secondary
+{
+    display: block;
+    width: 98%;
+}
+
+#content div.box_search div#form_search div#search_flght div#tersier
+{
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+#content div.box_search div#drop-search-flight
+{
+    width: 40px;
+    background: #fe9900;
+    float: right;
+    cursor: pointer;
+    clear: both;
+    height: 10px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+}
+
+#content div.box_search div#form_search div#search_flght div#primary label, #content div.box_search div#form_search div#search_flght div#secondary label, #content div.box_search div#form_search div#search_flght div#tersier label
+{
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+#content div.box_search div#form_search div#search_flght div#primary div#inputFrom
+{
+    width: 49%;
+    clear: none;
+    float: left;
+}
+
+#content div.box_search div#form_search div#search_flght div#primary div#inputDest
+{
+    width: 49%;
+    clear: none;
+    float: right;
+}
+
+#content div.box_search div#form_search div#search_flght div#secondary div#inputAirline, #content div.box_search div#form_search div#search_flght div#tersier div#inputDate, #content div.box_search div#form_search div#search_flght div#secondary div#inputStops, #content div.box_search div#form_search div#search_flght div#tersier div#inputRdate, #content div.box_search div#form_search div#search_flght div#secondary div#inputTrip
+{
+    width: auto;
+    clear: none;
+    float: left;
+    margin-right: 10px;
+
+}
+
+div#inputAirline,  div#inputTrip, div#inputDate,#inputRdate,#inputInf,#inputChd,#inputFare,#inputAdlt,#inputsearchFlght{
+    margin-top: 10px;
+     width: auto;
+    clear: none;
+    float: left;
+    margin-right: 5px;
+}
+
+#inputsearchFlght{
+    margin-top: 20px;
+}
+
+#date,#date-ret,#triptype,{
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#content div.box_search div#form_search div#search_flght div#tersier div#inputsearchFlght, #content div.box_search div#form_search div#search_flght div#secondary div#inputTransit
+{
+    width: auto;
+    clear: none;
+    float: right;
+}
+
+#content div.box_search div#form_search div#search_flght div#tersier div#inputAdlt, #content div.box_search div#form_search div#search_flght div#tersier div#inputChd, #content div.box_search div#form_search div#search_flght div#tersier div#inputInf
+{
+    width: auto;
+    clear: none;
+    float: right;
+    margin-right: 10px;
+}
+
+#content div.box_search div#form_search div#search_flght div#primary div#inputFrom input.small, #content div.box_search div#form_search div#search_flght div#primary div#inputDest input.small
+{
+    width: 99%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#form_search div#search_flght div#secondary div#inputAirline select.small
+{
+    width: 160px;
+    margin-top: 2px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#form_search div#search_flght div#secondary div#inputTrip select.small,#content div.box_search div#form_search div#search_flght div#secondary div#inputTransit select.small,#content div.box_search div#form_search div#search_flght div#secondary div#inputStops select.small
+{
+    width: 110px;
+    margin-top: 2px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#form_search div#search_flght div#tersier div#inputDate input.small
+{
+    width: 75px;
+    height: 14px;
+    margin-top: 2px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#form_search div#search_flght div#tersier div#inputRdate input.small
+{
+    width: 75px;
+    margin-top: 2px;
+    height: 14px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#content div.box_search div#form_search div#search_flght div#tersier div#inputAdlt select.small, #content div.box_search div#form_search div#search_flght div#tersier div#inputInf select.small, #content div.box_search div#form_search div#search_flght div#tersier div#inputChd select.small
+{
+    width: 35px;
+    margin-top: 2px;
+    float: left;    
+}
+
+#content div.box_search div#form_search div#search_flght div#secondary div#inputsearchFlght input
+{
+    margin-left: 20px;
+    width: 130px;
+    margin-top: 3px;
+    float: left;    
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box search
+----------------------------------------------------------- */
+
+#content div.box_search
+{
+    margin: 5px 0 0 0;
+    padding: 0 0 0px 0;
+    clear: both;
+    /*overflow: hidden;*/
+}
+
+/* -----------------------------------------------------------
+    content -> Bluebut
+----------------------------------------------------------- */
+
+#content .blueBut
+{
+    background: #FFB000 url("../../images/colors/orange/button_highlight.png") repeat-x;
+    border-top: 1px solid #FFA700;
+    border-left: 1px solid #FF7600;
+    border-right: 1px solid #FF7600;
+    border-bottom: 1px solid #FF7600;
+    color: #515151;
+    
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    
+    cursor: pointer;
+    width: 95%;
+    border-radius: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#content .blueBut:hover
+{
+    background: #FAC900 url("../../images/colors/orange/button_highlight_selected.png") repeat-x;
+    border-top: 1px solid #FFA700;
+    border-left: 1px solid #FF7600;
+    border-right: 1px solid #FF7600;
+    border-bottom: 1px solid #FF7600;
+    color: #fff;
+    
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#content .blueBut[disabled]
+{
+    background: #FAC900 url("../../images/colors/orange/button_highlight_selected.png") repeat-x;
+    border-top: 1px solid #FFA700;
+    border-left: 1px solid #FF7600;
+    border-right: 1px solid #FF7600;
+    border-bottom: 1px solid #FF7600;
+    color: #fff;
+    
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+
+    cursor: default;
+    border-radius: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#content .noblueBut
+{
+    background: #e5e3e3 url("../images/button.png") repeat-x;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #c6c6c6;
+    color: #515151;
+    
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    
+    cursor: pointer;
+    width: 95%;
+    border-radius: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#content .noblueBut:hover
+{
+    background: #b4b4b4 url("../images/button_selected.png") repeat-x;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #afafaf;
+    color: #515151;
+    
+    margin: 0;
+    padding: 6px 12px 6px 12px;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+/* -----------------------------------------------------------
+    content -> disable
+----------------------------------------------------------- */
+
+#content input[disabled]
+{
+    background-color: #ccc;
+}
+
+/* -----------------------------------------------------------
+    content -> loading
+----------------------------------------------------------- */
+
+#content .select-loading { cursor:wait ;background: #cecccc ; border-style: dashed;  }
+
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec
+----------------------------------------------------------- */
+
+#content div.box div.flightsec
+{
+    margin: 0;
+    padding: 0 20px 10px 20px;
+    clear: both;
+    overflow: hidden;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / table / viewbookflight
+----------------------------------------------------------- */
+ 
+#content div.box div.flightsec table.viewbookflight
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content div.box div.flightsec table.viewbookflight th
+{
+    padding: 10px;
+    background: #eeeeee;
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+#content div.box div.flightsec table.viewbookflight th.last
+{
+    border-right: none;    
+}
+
+#content div.box div.flightsec table.viewbookflight th.left
+{
+    text-align: left;   
+}
+
+#content div.box div.flightsec table.viewbookflight th.right
+{
+    text-align: right;   
+}
+
+#content div.box div.flightsec table.viewbookflight th.center
+{
+    text-align: center;   
+}
+
+#content div.box div.flightsec table.viewbookflight th.selected
+{
+    padding: 0;
+    vertical-align: middle;
+}
+
+#content div.box div.flightsec table.viewbookflight th.selected input
+{
+    margin: 0;    
+}
+
+#content div.box div.flightsec table.viewbookflight td
+{
+    padding: 10px;
+    /*background: #ffffff;*/
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+#content div.box div.flightsec table.viewbookflight td.last
+{
+    border-right: none;    
+}
+
+#content div.box div.flightsec table.viewbookflight tr.selected td
+{
+    background: #FFFFCC;
+}
+
+#content div.box div.flightsec table.viewbookflight td.selected
+{
+    padding: 0;
+    width: 3%;
+    text-align: center;
+    
+}
+
+#content div.box div.flightsec table.viewbookflight td.selected input
+{
+    margin: 0;    
+}
+
+#content div.box div.flightsec table.viewbookflight td.kodebookingwait
+{
+    width: 5%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    border-right : 0px ;
+    padding: 0px;
+}
+
+#content div.box div.flightsec table.viewbookflight td.kodebookingwait a:hover
+{
+    text-decoration: none;
+    color: #FF4200;
+}
+
+#content div.box div.flightsec table.viewbookflight td.resume
+{
+    width: 20%;
+    text-align: left;
+}
+
+#content div.box div.flightsec table.viewbookflight td.price
+{
+    width: 35%;
+    text-align: left;
+}
+
+#content div.box div.flightsec table.viewbookflight td.timelimit
+{
+    width: 30%;
+    text-align: left;
+}
+
+#content div.box div.flightsec table.viewbookflight td.pricedetail table,
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr,
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td
+{
+    border: none;
+}
+
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td.price-non-idr,
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td.price-non-idr table tr td
+{
+    background-color: #EFE4B3;
+}
+
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td.price-idr,
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td.price-idr table tr td
+{
+    background-color: #EFDF95;
+}
+
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td.price-member,
+#content div.box div.flightsec table.viewbookflight td.pricedetail table tr td.price-member table tr td
+{
+    background-color: #EFDA77;
+}
+
+#content div.box div.flightsec table.viewbookflight td.action_book
+{
+    width: 5%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec 
+    
+    tambahan untuk table pilih class batavia
+----------------------------------------------------------- */
+
+#content div.box div.flightsec
+{
+    margin: 0;
+    padding: 0 20px 10px 10px;
+    clear: both;
+    overflow: hidden;
+}
+
+#content div.box div.flightsec table#batavia-table
+{
+    font-size: 10px;
+    margin: 0;
+    margin-top : 10px;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content div.box div.flightsec table#batavia-table td
+{
+    padding: 1px;
+    border-bottom : 0px solid #cdcdcd;
+    border-right  : 1px solid #fff;
+}
+
+#content div.box div.flightsec table#batavia-table tr
+{
+    padding: 1px;
+    text-align: center;
+    border-bottom : 1px solid #cdcdcd;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec
+    
+    tambahan untuk table pilih class Citilink
+----------------------------------------------------------- */
+
+#content div.box div.flightsec .YourFight
+{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 tr
+{
+    border-bottom: 1px solid #dfdfdf;
+    height: 15px;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 tr:last-child
+{
+    border-bottom: 0px solid #dfdfdf;
+}
+
+#content div.box div.flightsec div.ErrorNoFlights
+{
+    border: 1px solid #dfdfdf;
+    height: 30px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: #ff0000;
+}
+
+#content div.box div.flightsec table.grid tr.gridHeader
+{
+    background: #dfdfdf;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content div.box div.flightsec table.grid tr.gridHeader td
+{
+    padding: 3px;
+    border-right: 1px solid #ffffff;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 tr.gridHeader
+{
+    background: #dfdfdf;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 tr.gridHeader td
+{
+    padding: 3px;
+    border-right: 1px solid #ffffff;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 td.AvlSeat
+{
+    background-color: #33FF99;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 td.AvlWaitlist
+{
+    background-color: #FFCC00;
+}
+
+#content div.box div.flightsec table#FlightAvailability0 td.AvlClose
+{
+    background-color: #FF0000;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 tr
+{
+    border-bottom: 1px solid #dfdfdf;
+    height: 15px;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 tr:last-child
+{
+    border-bottom: 0px solid #dfdfdf;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 tr.gridHeader
+{
+    background: #dfdfdf;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 tr.gridHeader td
+{
+    padding: 3px;
+    border-right: 1px solid #ffffff;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 td.AvlSeat
+{
+    background-color: #33FF99;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 td.AvlWaitlist
+{
+    background-color: #FFCC00;
+}
+
+#content div.box div.flightsec table#FlightAvailability1 td.AvlClose
+{
+    background-color: #FF0000;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec
+    
+    tambahan untuk table pilih class Merpati
+----------------------------------------------------------- */
+#content div.box div.flightsec .TBLYourFlight
+{
+    border-collapse: collapse;
+    line-height: 20px;
+    margin-top: 0;
+    width: 100%;
+}
+
+#content div.box div.flightsec .TBLYourFlight td
+{
+    border-top-color: #FFFFFF;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#content div.box div.flightsec .TBLYourFlight td
+{
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: medium;
+}
+
+#content div.box div.flightsec .TBLYourFlight tr
+{
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.ErrorNoFlights
+{
+    color: red;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL1, #content div.box div.flightsec .TBLYourFlight td.HeadCOL2
+{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #B5B4B0;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: white;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 15%;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL8,
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL7,
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL6,
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL5,
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL3,
+#content div.box div.flightsec .TBLYourFlight td.HeadCOL4
+{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #B5B4B0;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: white;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+}
+
+#content div.box div.flightsec  .TBLYourFlight td.BodyCOL1
+{
+    background-color: #d2efcf;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: white;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    color: #666666;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+#content div.box div.flightsec  .TBLYourFlight td.BodyCOL2
+{
+    background-color: #d2efcf;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: white;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    color: #666666;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL3,
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL4,
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL5,
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL6,
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL7
+{
+    background-color: #d2efcf;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: white;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    color: #666666;
+    font-weight: normal;
+    text-align: center;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL8
+{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #d2efcf;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: white;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    color: #666666;
+    font-weight: normal;
+    text-align: center;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.BodyCOLSelected
+{
+    background-color: Orange;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#content div.box div.flightsec .TBLYourFlight td.BodyCOL8Over
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #C5D9F1;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: orange;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: orange;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: orange;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: orange;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #666666;
+    font-weight: normal;
+    text-align: center;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3
+{
+    width:100%;
+    border-collapse: collapse;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td
+{
+    border-bottom:1px solid #FFFFFF;
+    height:20px;
+    padding:1px 2px;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL1
+{
+    line-height:16px;
+    width:1%;
+    background: #B5B4B0;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL2
+{
+    line-height:16px;
+    width:13%;
+    background: #B5B4B0;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL3,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL4
+{
+    line-height:16px;
+    width:12%;
+    background: #B5B4B0;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL5,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL6,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL7
+{
+    line-height:16px; width:12%; background: #B5B4B0; color:#ffffff; font-weight:bold;text-align:center;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL8
+{
+    line-height:16px; width:16%; background: #B5B4B0; color:#ffffff; font-weight:bold;text-align:center;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.HeadCOL9
+{
+    line-height:16px; width:10%; background: #B5B4B0; color:#ffffff; font-weight:bold;text-align:center;
+}
+
+
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL1
+{
+    line-height:16px;background-color:#F9EBA7; color:#666666;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL2,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL3,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL4
+{
+    line-height:16px;background-color:#F9EBA7; color:#666666;
+}
+
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL5,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL6,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL7,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL8,
+#content div.box div.flightsec .TBLYourItineraryStep3 td.BodyCOL9
+{
+    line-height:16px;background-color:#F9EBA7; color:#666666;text-align:center;
+}
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec 
+    
+    tambahan untuk table pilih class Lion
+----------------------------------------------------------- */
+
+#content div.box div.flightsec table.flighttable
+{
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content div.box div.flightsec table.flighttable td
+{
+    padding: 0px;
+    border: 0px solid #cdcdcd;
+}
+
+#content div.box div.flightsec div#pnlRetFlights
+{
+    margin-top: 20px;
+}
+
+#content div.box div.flightsec table.flighttable td.step2_heading
+{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    background-color: #dfdfdf;
+    height: 16px;
+}
+
+#content div.box div.flightsec table.flighttable td.step2hdrCell
+{
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #dfdfdf;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#content div.box div.flightsec table.flighttable td.step2avlCell
+{
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #dfdfdf;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#content div.box div.flightsec table.flighttable td.step2Cell
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#content div.box div.flightsec table.flighttable td.FlightTableFooter_text
+{
+    padding: 0px;
+    border: 0px;
+}
+
+#content div.box div.flightsec div#pnlRetFlights span#lblReturnFlightOptions
+{
+    margin-bottom: 30px;
+}
+
+#content div.box div.flightsec table.flighttable td.FlightTableFooter_clear
+{
+    padding: 0px;
+    border: 0px;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec 
+    
+    tambahan untuk table pilih class Mandala
+----------------------------------------------------------- */
+
+#content div.box div.flightsec div.sectionContent 
+{
+    margin:2px auto 20px auto;
+    float:none;
+    border:solid 1px #dfdfdf;
+    overflow:hidden;
+    padding:10px 5px 10px 10px;
+}
+
+#content div.box div.flightsec div.sectionHeader 
+{
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top : 10px;
+}
+
+#content div.box div.flightsec div.headerBoxTitle
+{
+    padding-top:7px;
+    margin-left:10px;
+    width:100%;
+}
+
+#content div.box div.flightsec div.headerBox
+{
+    background-color:#dfdfdf;
+    width:20%;
+    height:30px;
+    border:solid 1px #fff;
+    margin-top:1px;
+    overflow:hidden;
+    font-weight: bold;
+}
+
+#content div.box div.flightsec div.floatLeft
+{
+    float:left;
+    clear: none;
+}
+
+#content div.box div.flightsec div.overflowHidden
+{
+    overflow:hidden;
+}
+
+#content div.box div.flightsec div.w19
+{
+    width:25%;
+}
+
+#content div.box div.flightsec span.bold
+{
+    font-weight: bold;
+}
+
+#content div.box div.flightsec div.center
+{
+    text-align:center;
+}
+
+#content div.box div.flightsec div.fontBold
+{
+    font-weight:bold;
+}
+
+#content div.box div.flightsec div.marginTopTinySmall
+{
+    margin-top:3px;
+    text-align: center;
+}
+
+#content div.box div.flightsec div.w40
+{
+    width:40px;
+}
+
+#content div.box div.flightsec div.w110
+{
+    width:17%;
+}
+
+#content div.box div.flightsec div.w120
+{
+    width:25%px;
+}
+
+#content div.box div.flightsec div.columnPriceLow
+{
+    float:left;
+    width:63%;
+    margin-right:1px;
+    padding-top:5px;
+    margin-left:1px;
+    text-indent:10px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+#content div.box div.flightsec div.marginBottomSmall
+{
+    width: 130px;
+    float: left;
+    clear: none;
+    margin-bottom: 5px;
+}
+
+#content div.box div.flightsec div.columnPriceTop
+{
+    float:left;
+    margin-right:1px;
+    padding-top:5px;
+    text-indent:5px;
+    padding-bottom: 5px;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / tables 
+    
+    style untuk table PNR | batavia | lion | Merpati | Citilink | Mandala
+----------------------------------------------------------- */
+
+#content div.box div.flightsec .input-pnr
+{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content div.box div.flightsec span#detil_Itinerary_title,span#summary_fare_title,span#pnr_input_title,span#contact_input_title,span#remark_input_title,span#security_code_title
+{
+    font-size: 15px;   
+    font-weight: bold;
+    margin-left: 15px;
+    color: gray;
+}
+
+#content div.box div.flightsec #detil_Itinerary
+{
+    border: 2px solid #cdcdcd;
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#content div.box div.flightsec #detil_Itinerary table
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content div.box div.flightsec #detil_Itinerary table#detil_Itinerary_tBlDPr th
+{
+    background: #cdcdcd;
+}
+
+#content div.box div.flightsec #detil_Itinerary table#ctrBooking_ctrBookingSummery_ctrBookingItineraryGrid_grdItineraryGrid tr.GridHeader
+{
+    background: #cdcdcd;
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #detil_Itinerary table#ctrBooking_ctrBookingSummery_ctrBookingItineraryGrid_grdItineraryGrid tr.GridItems0
+{
+    border-bottom: 1px solid #cdcdcd;
+}
+
+#content div.box div.flightsec #detil_Itinerary table#detil_Itinerary_tBlDPr td
+{
+    border-bottom : 1px solid #cdcdcd;
+    text-align: center;
+}
+
+#content div.box div.flightsec #detil_Itinerary table#detil_Itinerary_tBlRTn th
+{
+    background: #cdcdcd;
+}
+
+#content div.box div.flightsec #detil_Itinerary table#detil_Itinerary_tBlRTn td
+{
+    border-bottom : 1px solid #cdcdcd;
+    text-align: center;
+}
+
+#content div.box div.flightsec #summary_fare
+{
+    border: 2px solid #cdcdcd;
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#content div.box div.flightsec #pnr_input
+{
+    border: 2px solid #cdcdcd;
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#content div.box div.flightsec #contact_input
+{
+    border: 2px solid #cdcdcd;
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#content div.box div.flightsec #remark_input
+{
+    border: 2px solid #cdcdcd;
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#content div.box div.flightsec .input-pnr td
+{
+    padding: 1px;
+}
+
+#content div.box div.flightsec .input-pnr#batavia-pnr
+{
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#content div.box div.flightsec .input-pnr .head_title_pnr
+{
+    border: 1px solid #CDCDCD;
+    background: #CDCDCD;
+    padding: 2px 2px 2px 10px;
+}
+
+#content div.box div.flightsec .input-pnr .termCodition_pnr
+{
+    border: 1px solid #CDCDCD;
+    background: #CDCDCD;
+    padding: 2px 2px 5px 10px;
+    margin-top: 20px;
+    font-style: italic;
+    cursor: pointer;
+    width: 95%;
+}
+
+#content div.box div.flightsec .input-pnr th
+{
+    border-bottom: 1px solid #cdcdcd;
+    padding: 5px;
+    text-align: left;
+}
+
+#content div.box div.flightsec .input-pnr th#pass
+{
+    width: 80px;
+}
+
+#content div.box div.flightsec .input-pnr th#title
+{
+    width: 50px;
+}
+
+#content div.box div.flightsec .input-pnr th#frsNma
+{
+    width: 150px;
+}
+
+#content div.box div.flightsec .input-pnr th#srname
+{
+    width: 150px;
+}
+
+#content div.box div.flightsec #security_code
+{
+    border: 2px solid #cdcdcd;
+    font-size: 11px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+#content div.box div.flightsec #security_code #captcha
+{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    margin-left: 10px;
+}
+
+#content div.box div.flightsec #security_code #captcha_form
+{
+    width: 170px;
+    float: left;
+    margin-right: 30px;
+}
+
+#content div.box div.flightsec #security_code #desc_cap
+{
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #security_code #captcha #captcha_image_mandala
+{
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#content div.box div.flightsec #security_code #captcha #cap_img
+{
+    display: block;
+    width: 160px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Batavia PNR style*/
+#content div.box div.flightsec #pnr_batavia
+{
+    width: 100%;
+    border : 0px #dfdfdf;
+}
+
+#content div.box div.flightsec #pnr_batavia tr
+{
+    border-bottom : 1px solid #dfdfdf;
+}
+
+#content div.box div.flightsec #pnr_batavia tr:first-child
+{
+    font-weight: bold;
+    background-color: #cdcdcd;
+    height: 15px;
+}
+
+#content div.box div.flightsec #pnr_batavia tr td
+{
+    border-right : 0px solid #dfdfdf;
+}
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec 
+    
+    style untuk table Booking result
+----------------------------------------------------------- */
+
+#content div.box div.flightsec #bookingresult
+{
+    width: 100%;   
+}
+
+#content div.box div.flightsec #bookingresult #bookingcode
+{
+    display: block;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    width: 47%;
+    float: left;
+    margin-right: 5px;
+    height: 80px;
+}
+
+#content div.box div.flightsec #bookingresult #bookingcode #bookingcode_title
+{
+    display: block;
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #bookingresult #bookingcode #bookingcode_content
+{
+    display: block;
+    font-size: 45px;
+    color: #376EA6;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #bookingresult #timelimit
+{
+    display: block;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    width: 47%;
+    float: right;
+    height: 80px;
+}
+
+#content div.box div.flightsec #bookingresult #timelimit #timelimit_title
+{
+    display: block;
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #bookingresult #timelimit #timelimit_content
+{
+    display: block;
+    font-size: 30px;
+    color: #55DF29;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking
+{
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #detail_booking_result
+{
+    margin-right: 30px;
+    color: blue;
+    cursor: pointer;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn
+{
+    border: 1px solid #cdcdcd;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+/*submit button on booking result*/
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn .submit_form
+{
+    margin-top: 40px;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn table
+{
+    margin-left: 10px;
+    text-align: left;
+    width: 98.5%;
+    border: none;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn table#ctrBooking_ctrBookingSummery_CtrPassengerGrid_grdPassenger
+{
+    width: 100%;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn table#ctrBooking_ctrBookingSummery_CtrPassengerGrid_grdPassenger tr td
+{
+    border: 0px hidden #fff;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn #passengerDisplayContent
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    width: 90%;
+    border: 0px;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn .sectionTextWidth95
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    width: 90%;
+    border: 0px;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn .marginBottom10
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 12px;
+    width: 90%;
+    border: 0px;
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #bookingresult #moredetail_booking #moredetail_booking_cntn .flightInfoDate
+{
+    font-weight: bold;
+}
+
+#content div.box div.flightsec #bookingresult #fullfare
+{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    background: #eeeeee;
+    padding: 5px;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / button
+----------------------------------------------------------- */
+
+#content div.box .submit_form
+{
+    width: 10%;
+    margin-top: 20px;
+    float: right;
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box message
+----------------------------------------------------------- */
+
+#content div.boxmess
+{
+    margin: 10px 0 0 0;
+    clear: both;
+    overflow: hidden;
+    font-family:  Verdana, Sans-serif;
+    width:100%;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #A61212; 
+    background: #D92727; 
+    color: #FFFFFF;
+    display: block;
+    padding: 8px 10px;
+}
+
+#content div.boxmess-left
+{
+    width: 49%;
+    clear: none;
+    float: left;    
+}
+
+#content div.boxmess-right
+{
+    width: 49%;
+    clear: none;
+    float: right;    
+}
+
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec 
+    
+    tambahan untuk table pilih class sriwijaya
+----------------------------------------------------------- */
+
+#content .avTableLabel1 {
+    color:#8E7D30;
+    float:left;
+    font-size:14px;
+    font-weight:normal; 
+    margin:0 0 3px 0;
+}
+
+#content #departTableLabel,
+#content #returnTableLabel,
+#content #combiTableLabel {
+    margin-right:5px;   
+}
+
+#content #depCombiTableLabel {
+    margin-right:5px;   
+}
+
+#content #retCombiTableLabel {
+    margin-right:5px;   
+}
+
+#content #depIcon {
+    background:transparent url("images/sprites01.gif") no-repeat -160px -100px;
+    display:block;
+    height:15px;
+    float:left;
+    margin-right:5px;
+    width:15px;
+}
+
+#content #retIcon {
+    background:transparent url("images/sprites01.gif") no-repeat -175px -100px;
+    display:block;
+    height:15px;
+    float:left;
+    margin-right:5px;
+    width:15px;
+}
+
+#content #combIcon {
+    background:transparent url("images/sprites01.gif") no-repeat -190px -100px;
+    display:block;
+    height:21px;
+    float:left;
+    margin-right:5px;
+    width:21px;
+}
+
+#content .avTableLabel2 {
+    color:#8E7D30;
+    float:left;
+    font-size:14px;
+    font-weight:bold;   
+    margin:0 0 3px 0;
+}
+
+#content .avTableDiv2 {
+    color:red;
+    float:right;
+    font-size:11px; 
+    font-weight: bold;
+    margin-top:5px;
+}
+
+#content .flightDateInfoWrap {
+    float:left;
+    width:600px;    
+}
+
+#content table.tableAvailability {
+    border-bottom: 1px solid #ffffff;
+    clear:both; 
+    font-size:11px;
+    margin-bottom:20px;
+    width:100%;
+}
+
+#content table.tableAvailability tr td.leftTD,
+#content table.tableAvailability tr td.leftTD_even {
+    background:none;
+    padding:0;
+    width:15%;
+}
+
+#content table#table_go tr td.leftTD {
+    background:#428bb9; 
+    border-bottom:1px solid #ffffff;
+    vertical-align: top;
+}
+
+#content table#table_go tr td.leftTD_even {
+    background:#69b9ec;
+    border-bottom:1px solid #ffffff;
+    padding:0;
+    vertical-align: top;
+}
+
+#content table#table_back tr td.leftTD   {
+    background:#7cb342;
+    border-bottom:1px solid #ffffff;
+    padding:0;
+    vertical-align: top;
+}
+
+#content table#table_back tr td.leftTD_even  {
+    background:#97cf5b;
+    border-bottom:1px solid #ffffff;
+    vertical-align: top;
+}
+
+
+#content table.tableAvailability tr td.rightTD {
+    background:#ffffff;
+    padding:0;
+    height:100%;
+    width:85%;
+}
+
+#content table.classTable tr td {
+    background:#c9ecff; 
+    border-left:1px solid #ffffff;
+    border-bottom:1px solid #ffffff;
+    padding:3px;
+    width:4.54%;
+    height:auto;
+}
+
+#content table.classTable tr td.avcellTd_even {
+    background:#ebf6fc;
+}
+
+#content table.classTable tr td.avcellTd_Select {
+    background:#ff66cc;
+}
+
+#content table#table_back tr td table.classTable tr td {
+    background:#b5e195; 
+}
+
+#content table#table_back tr td table.classTable tr td.avcellTd_even {
+    background:#ddfcc6; 
+}
+
+#content table#table_comb tr td.leftTD {
+    background:#d3418d; 
+}
+
+#content table#table_comb tr td table.classTable tr td {
+    background:#f7b9d9; 
+}
+
+#content table.classTable tr td.avcellTd_disable,
+#content table#table_back tr td.avcellTd_disable,
+#content table#table_comb tr td.avcellTd_disable {
+    background:#c8c7b6 !important;
+    color:#4d4d44 !important;   
+}
+
+#content table.classTable tr td.avcellTd_disable input.avcellRadio,
+#content table#table_back tr td.avcellTd_disable input.avcellRadio,
+#content table#table_comb tr td.avcellTd_disable input.avcellRadio {
+    display:none;
+}
+
+#content table.tableAvailability tr td table.classTable {
+    border:0;
+    height:100%;
+    width:100%;
+}
+
+#content table.flightInfo {
+    border:0;
+    /* color:#ffffff; */
+    font-weight:bold;
+    /* height:100%; */
+    width:100%; 
+}
+
+#content table.flightInfo tr td.arrInfo {
+    
+}
+
+#content .flightNum a {
+    color:#fffdab;  
+}
+
+#content .warningStop {
+    font-weight:normal;
+    font-style:italic;  
+}
+
+#content table.flightInfo tr td {
+    border-bottom:0px solid #ffffff;
+    padding:3px;
+    width:33.3%;    
+    vertical-align:text-top;
+}
+
+#content .classLetterCode {
+    float:left;
+    font-weight:bold;   
+}
+
+#content .availNumCode {
+    float:left;     
+}
+
+#content .avcell {
+    display:block;
+    float:left;
+    height:100%;
+    width:100%;
+}
+
+#content .avcell input.avcellRadio {
+    /* float:left; */   
+    margin:0 2px;
+    padding:0;
+}
+
+#content .avcellFare {
+    clear:both;
+    float:left;
+}
+
+#content .input + div {
+    display: none;
+    position: relative;
+    top: -30px;
+    left: 200px;
+}
+
+#content .input:focus + div {
+        display: block;
+}
+
+/*
+    Booking Summary
+*/
+
+#content #bookingSummary {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;    
+}
+
+#content table#selectedSummary {
+    font-size:11px;
+    width:100%; 
+}
+
+#content table#selectedSummary tr td.leftTD {
+    background:#FFFECD;
+    border: 1px solid #E2E19C;
+    width:70%;  
+}
+
+#content table#selectedSummary tr td.rightTD  {
+    background:#FFFECD;
+    border: 1px solid #E2E19C;
+    width:30%;  
+}
+
+#content table#selectedSummary td.mainTitle {
+    background:#9a8364;
+    color:#ffffff;
+    font-weight:bold;
+    padding:3px;
+    text-align:left;
+}
+
+#content table#flightSummary {
+    width:100%; 
+}
+
+#content table#fareSummary {
+    width:100%; 
+}
+
+#content table#flightSummary td {
+    padding:2px;    
+    text-align:center;
+}
+
+#content table#flightSummary td.thDate,
+#content table#flightSummary td.thSegment {
+    background:#d7cd94;
+    color:#555555;
+    font-weight:bold;
+    text-align:center;
+    width:20%;
+}
+
+#content table#flightSummary td.thFlightNo,
+#content table#flightSummary td.thClass,
+#content table#flightSummary td.thDepartTime,
+#content table#flightSummary td.thArrivalTime,
+#content table#flightSummary td.thStopOver {
+    background:#d7cd94;
+    color:#555555;
+    font-weight:bold;
+    text-align:center;
+    width:12%;  
+}
+
+#content table#flightSummary tr.selectedgo {
+    background:#c9ecff; 
+}
+
+#content table#flightSummary tr.selectedreturn {
+    background:#b5e195; 
+}
+
+#content table#flightSummary tr.selectedcomb {
+    background:#F7B9D9; 
+}
+
+
+/*
+    PNR Retrieve
+*/
+
+#content #pnr {
+    font-size:12px; 
+}
+
+#content .pnrPageTitle {
+    border-bottom:0px solid #9f9154;
+    color:#9f9154;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+#content table.reservationDetail,
+#content table.passengerDetail,
+#content table.itineraryDetail,
+#content table.pnrPaymentDetail {
+    border: 1px solid #DAD5B1;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#content #pnr table.reservationDetail th {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    width: 10%;
+}
+
+#content #pnr table th {
+    font-weight: bold;
+    text-align: left;
+}
+
+#content #pnr table td.subTitle {
+    font-size: 12px;
+    font-weight:bold;
+    padding: 5px;
+}
+
+#content .subTitle {
+    background: none repeat scroll 0 0 #AC9F8E;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+#content table.passengerDetail th,
+#content table.passengerDetail td {
+    font-size:12px;
+    padding:3px;    
+}
+
+#content #pnr table.itineraryDetail {
+    width:100%; 
+}
+
+#content #pnr table.itineraryDetail th.itineraryDate {
+    background-color:#f3f2d3;
+    color:#62584b;
+    font-size:12px;
+    padding:3px;
+}
+
+#content #pnr table.itineraryDetail td {
+    font-size:12px;
+    width:25%;  
+}
+
+#content #pnr table.pnrPaymentDetail th,
+#content #pnr table.pnrPaymentDetail td {
+    border-bottom:1px solid #f3f2d3;
+    font-size:12px;
+    padding:5px;
+    width:15%;  
+}
+
+#content #pnr table.pnrPaymentDetail th {
+    color:#62584B;  
+    font-size:12px;
+}
+
+#content #pnr table.pnrPaymentDetail .nta {
+    border:0;   
+}
+
+#content #pnr table.pnrPaymentDetail .pnrEmpty {
+    border:0;
+    width:70%;
+}
+#content #pnr table th.label {
+    color:#62584B;  
+    font-size:12px;
+}
+
+#content #pnr table.reservationDetail td.timeLimit {
+    font-size:14px;
+    font-weight:bold;
+    width:40%;  
+}
+
+#content #pnr table.reservationDetail td.status {
+    font-size:12px; 
+}
+
+#content table.reservationDetail .timeLimitLabel {
+    color:red;
+    font-weight:bold;   
+}
+
+#content table.reservationDetail .timeLimit {
+    color:red;
+    font-weight:normal; 
+}
+
+#content table.passengerDetail tr.head {
+    background:#F3F2D3;
+}
+
+#content table.tableNotice td.notice {
+    font-size:11px !important;
+}
+#content table.tableNotice ol {
+    margin:0;
+    padding:0 0 0 18px;
+}   
+
+#content .warningNoFlight {
+    float:left;
+    font-style: italic;
+    color:red;  
+    margin-bottom:30px;
+}
+/* -----------------------------------------------------------
+    content -> right -> box / flightsec 
+    
+    tambahan untuk table pilih class transnusa
+----------------------------------------------------------- */
+#content form#transnusa_cek_class table,
+#content table#itinerari_tbl{
+}
+
+#content form#transnusa_cek_class tr, #moredetail_booking table#itinerary_tbl tr,
+#content table#itinerari_tbl tr{
+    background-color: #efefef;
+}
+
+#content form#transnusa_cek_class .tablehead, #moredetail_booking table#itinerary_tbl .tablehead,
+#content table#itinerari_tbl .tablehead{
+    padding: 3px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #808080;
+}
+/* -----------------------------------------------------------
+    tambahan untuk table pilih class airasia
+----------------------------------------------------------- */
+form#airasia_cek_class table tr td{margin:0;margin:0;margin:0;padding:0;padding:0;padding:0;}
+form#airasia_cek_class td{font-size:11px;font-size:11px;font-size:11px;padding:0;padding:0;padding:0;text-align:center;text-align:center;text-align:center;}
+form#airasia_cek_class .fareTable td .resultFareBlank,.resultFareBlank1,.resultFareBlank2,.resultFareBlank3,.resultFareBlank4{color:#000000;display:block;font-size:14px;height:100%!important;min-height:30px;padding:7px 0;text-align:center;}
+form#airasia_cek_class .resultFare2{font-size:13px;font-weight:700;min-height:29px;padding:14px 0;vertical-align:middle;}
+form#airasia_cek_class .resultFare2 .bold,.resultFare2 .paxTypeDisplay{font-size:12px;font-weight:700;}
+form#airasia_cek_class .price{font-size:13px;}
+form#airasia_cek_class .paxTypeDisplay{font-size:12px;text-align:center;}
+form#airasia_cek_class .rgMasterTable td.resultFareCell2{width:240px;width:240px;}
+form#airasia_cek_class .clearBoth{clear:both;}
+form#airasia_cek_class .rgHeader{border:0 none;border:0 none;color:#000000;color:#000000;font-size:15px;font-size:15px;padding:10px 0;padding:10px 0;text-align:center;text-align:center;}
+form#airasia_cek_class table{border:0 none;border-collapse:collapse;clear:both;empty-cells:show;padding:0;}
+form#airasia_cek_class table{border-bottom:1px solid #BDBDBD;margin:0 0 20px;}
+form#airasia_cek_class table tr th{color:#FFFFFF;height:16px;padding:2px 4px;text-align:left;white-space:nowrap;}
+form#airasia_cek_class tr.rgRow,tr.rgAltRow td{background:url("../images/airlines/airasia/booking-bg.gif") repeat-x;}
+form#airasia_cek_class .scheduleFlight{margin:0;padding:2px 0;text-align:center;}
+form#airasia_cek_class .cell{height:auto;margin:2px auto 1px;padding:30px 0;position:relative;width:auto;}
+form#airasia_cek_class .hidden{display:none}
+/* end airasia */
+/* trigana sqiva style*/
+form#trigana_cek_class td,form#trigana_cek_class th,#detil_Itinerary .jsg_table td,#detil_Itinerary .jsg_table th,
+form#kalstar_cek_class td,form#kalstar_cek_class th,#detil_Itinerary .jsg_table td,#detil_Itinerary .jsg_table th,
+{border: 1px solid #000;}
+form#trigana_cek_class .jsg_row1,form#kalstar_cek_class .jsg_row1,#detil_Itinerary .jsg_row1{background-color:white; font-size:10px}
+form#trigana_cek_class .jsg_row2,form#kalstar_cek_class .jsg_row2,#detil_Itinerary .jsg_row2{background-color:#f2f2ff; font-size:10px}
+form#trigana_cek_class .jsg_row_highlight,form#kalstar_cek_class .jsg_row_highlight,#detil_Itinerary .jsg_row_highlight{background-color:#BFE0F0}
+form#trigana_cek_class .jsg_btn_sort,form#kalstar_cek_class .jsg_btn_sort{background-color:#89B9E6}
+form#trigana_cek_class .jsg_header,form#kalstar_cek_class .jsg_header,#detil_Itinerary .jsg_header{background-color:#1D5C92; color:white;font-size:10px;font-weight:bold;text-align:center;}
+form#trigana_cek_class .jsg_subheader,form#kalstar_cek_class .jsg_subheader,#detil_Itinerary .jsg_subheader{background-color:#2372b1; color:white;font-size:10px;font-weight:bold;text-align:left;cursor:default;padding-left:2px;padding-top:1px;padding-bottom:1px}
+form#trigana_cek_class .jsg_table,form#kalstar_cek_class .jsg_table,#detil_Itinerary .jsg_table{background-color:#BFDDE9}
+form#trigana_cek_class .cls_disabled,form#kalstar_cek_class .cls_disabled{background-color:#AEACAC}
+form#trigana_cek_class .select_class tr:first-child td,form#kalstar_cek_class .select_class tr:first-child td {border-top : 0px;}
+form#trigana_cek_class .select_class tr:last-child td,form#kalstar_cek_class .select_class tr:last-child td {border-bottom : 0px;}
+form#trigana_cek_class .select_class tr td:first-child,form#kalstar_cek_class .select_class tr td:first-child {border-left : 0px;}
+form#trigana_cek_class .select_class tr td:last-child,form#kalstar_cek_class .select_class tr td:last-child {border-right : 0px;}
+form#trigana_cek_class .jsg_vbar,form#kalstar_cek_class .jsg_vbar{background-color:green}
+form#trigana_cek_class .jsg_pixel_arrow_color,form#kalstar_cek_class .jsg_pixel_arrow_color{background-color:white}
+#detil_Itinerary .jsg_table{background-color:#BFDDE9}
+#detil_Itinerary .jsg_row_highlight{background-color:#BFE0F0}
+/*end of trigana sqiva*/
+
+/* indonesia air sqiva style*/
+form#iat_cek_class td,form#iat_cek_class th,#detil_Itinerary .jsg_table td,#detil_Itinerary .jsg_table th{border: 1px solid #000;}
+form#iat_cek_class .jsg_row1,#detil_Itinerary .jsg_row1{background-color:white; font-size:10px}
+form#iat_cek_class .jsg_row2,#detil_Itinerary .jsg_row2{background-color:#f2f2ff; font-size:10px}
+form#iat_cek_class .jsg_row_highlight,#detil_Itinerary .jsg_row_highlight{background-color:#BFE0F0}
+form#iat_cek_class .jsg_btn_sort{background-color:#89B9E6}
+form#iat_cek_class .jsg_header,#detil_Itinerary .jsg_header{background-color:#1D5C92; color:white;font-size:10px;font-weight:bold;text-align:center;}
+form#iat_cek_class .jsg_subheader,#detil_Itinerary .jsg_subheader{background-color:#2372b1; color:white;font-size:10px;font-weight:bold;text-align:left;cursor:default;padding-left:2px;padding-top:1px;padding-bottom:1px}
+form#iat_cek_class .jsg_table,#detil_Itinerary .jsg_table{background-color:#BFDDE9}
+form#iat_cek_class .cls_disabled{background-color:#AEACAC}
+form#iat_cek_class .select_class tr:first-child td {border-top : 0px;}
+form#iat_cek_class .select_class tr:last-child td {border-bottom : 0px;}
+form#iat_cek_class .select_class tr td:first-child {border-left : 0px;}
+form#iat_cek_class .select_class tr td:last-child {border-right : 0px;}
+form#iat_cek_class .jsg_vbar{background-color:green}
+form#iat_cek_class .jsg_pixel_arrow_color{background-color:white}
+#detil_Itinerary .jsg_table{background-color:#BFDDE9}
+#detil_Itinerary .jsg_row_highlight{background-color:#BFE0F0}
+/*end of trigana sqiva*/
+
+/* GOS garuda begin*/
+form#gos_cek_class .executive{background:#7FD4FF !important;text-align:center !important}
+form#gos_cek_class .economy{text-align:center !important}
+/* Table */
+form#gos_cek_class .gtable{width:100%;border:2px solid #ccc}
+form#gos_cek_class .gtable th{text-align:left;padding:5px 10px}
+form#gos_cek_class .gtable thead tr{color:#333;border:1px solid #ccc}
+form#gos_cek_class .gtable thead th{background:#efefef}
+form#gos_cek_class .gtable tbody tr td{border-bottom:1px solid #eee;vertical-align: middle;}
+form#gos_cek_class .gtable tbody tr td.class{text-align: center}
+form#gos_cek_class .gtable tbody tr.odd td{background:#fff}
+form#gos_cek_class .gtable tbody tr.even td{background:#ddd}
+/* form#gos_cek_class .gtable tbody tr:hover td{background:#FFFAE3} */
+form#gos_cek_class .gtable td{padding:5px 10px}
+form#gos_cek_class .gtable input{vertical-align:middle}
+form#gos_cek_class .gtable img{vertical-align:middle;margin-right:5px}
+form#gos_cek_class .gtable tr.detail{font-size:11px}
+form#gos_cek_class .gtable tr.detail td{padding:0}
+form#gos_cek_class .gtable tr.detail td td,.gtable tr.detail td th{padding:2px 10px;color:#777}
+form#gos_cek_class .gtable .detail table{width:100%;border:5px solid #fff7d1}
+form#gos_cek_class .gtable .detail table tr td,.gtable .detail table tr th{background:#ffffed;border-bottom:1px solid #fff7d1}
+form#gos_cek_class .gtable thead th{background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#efefef));background:-moz-linear-gradient(#fff, #efefef);background:linear-gradient(#fff,#efefef);-pie-background:linear-gradient(#fff,#efefef)}
+/* arrow */
+form#gos_cek_class .moreaffordable{float:left;width:47%}
+form#gos_cek_class .moreaffordable .arrowleft{background:url("../images/airlines/gos/arrowleft.png") no-repeat left;width:45%;float:left;display:block}
+form#gos_cek_class .moreaffordable span{float:right}
+form#gos_cek_class .moreflexible .arrowright{background:url("../images/airlines/gos/arrowRight.png") no-repeat right;width:55%;float:right;display:block}
+form#gos_cek_class .moreflexible span{float:left}
+form#gos_cek_class .moreflexible{float:right;width:46%}
+form#gos_cek_class td .arrowhead{background:url(images/arrowhead.png) no-repeat left;display:block;float:left;width:15px;height:12px}
+form#gos_cek_class td .arrowbody{background:url(images/arrowbody.png) no-repeat left;display:block;width:200px}
+form#gos_cek_class td .moreaffordable p{float:right;margin:0;padding:0}
+/* box */
+form#gos_cek_class p{margin:0 !important}
+form#gos_cek_class .box{background:#fff;border:1px solid #838383;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;-moz-box-shadow:1px 1px 4px #f4f4f4;margin-bottom:15px}
+form#gos_cek_class .box h2{color:#000;font-size:13px;font-weight:bold;height:18px;padding:0 10px 5px;position:absolute}
+form#gos_cek_class .box .section{font-size:11px;padding:10px}
+form#gos_cek_class .box .main-content{padding:5px 10px 0;font-size:11px;margin:35px 0 -10px}
+/* icon */
+form#gos_cek_class .outbound{background:url("../images/airlines/gos/plane-out.png") no-repeat #fff;border:1px solid #000;display:block;height:20px;-moz-border-radius:4px;margin-top:5px;-webkit-border-radius:4px;width:22px;margin:5px;float:left}
+form#gos_cek_class .inbound{background:url("../images/airlines/gos/plane-in.png") no-repeat #fff;border:1px solid #000;display:block;height:20px;-moz-border-radius:4px;margin-top:5px;-webkit-border-radius:4px;width:22px;margin:5px;float:left}
+/* GOS garuda end*/
+
+/* search all airline begin*/
+/* Table */
+form#search_all_airline .gtable{width:100%;border:2px solid #ccc;font-size: 14px}
+form#search_all_airline .gtable th{text-align:left;padding:5px 10px}
+form#search_all_airline .gtable thead tr{color:#333;border:1px solid #ccc}
+form#search_all_airline .gtable thead th{background:#efefef}
+form#search_all_airline .gtable tbody tr td{border-bottom:1px solid #eee;vertical-align: middle;}
+form#search_all_airline .gtable tbody tr td.class{text-align: center}
+/*form#search_all_ailine .gtable tbody tr.odd td{background:#fff}*/
+/*form#search_all_ailine .gtable tbody tr.even td{background:#ddd}*/
+/*
+#express_class table.colored tr:hover.active td{background:url(../images/airlines/express/table-bg-active-hover.png) repeat-x left top}
+#express_class table.colored tr:hover td{}
+*/
+form#search_all_airline .gtable tbody tr:hover.active td{background-color:#FFFAE3;}
+form#search_all_airline .gtable tbody tr:hover.active td{}
+form#search_all_airline .gtable td{padding:5px 10px}
+form#search_all_airline .gtable input{vertical-align:middle}
+form#search_all_airline .gtable img{vertical-align:middle;margin-right:5px}
+form#search_all_airline .gtable tr.detail{font-size:14px}
+form#search_all_airline .gtable tr.detail td{padding:0}
+form#search_all_airline .gtable tr.detail td td,.gtable tr.detail td th{padding:2px 10px;color:#777}
+form#search_all_airline .gtable .detail table{width:100%;border:5px solid #fff7d1}
+form#search_all_airline .gtable .detail table tr td,.gtable .detail table tr th{background:#ffffed;border-bottom:1px solid #fff7d1}
+form#search_all_airline .gtable thead th{
+    background-image:-webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#efefef));
+    background-image:-moz-linear-gradient(#fff, #efefef);
+    background-image:linear-gradient(#fff,#efefef);
+    -pie-background:linear-gradient(#fff,#efefef); 
+    border-right: 1px solid #cccccc;
+}
+
+form#search_all_airline .gtable thead th.sort{
+    background-image:-webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#efefef)),url('../images/additional/sort_both.png');
+    background-image:-moz-linear-gradient(#fff, #efefef),url('../images/additional/sort_both.png');
+    background-image:url('../images/additional/sort_both.png'),linear-gradient(#fff,#efefef);
+    -pie-background:linear-gradient(#fff,#efefef),url('../images/additional/sort_both.png'); 
+    background-image: url('../images/additional/sort_both.png') no-repeat; 
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+form#search_all_airline .gtable thead th.sort-desc{
+    background-image:-webkit-gradient(linear, 0 0, 0 bottom, from(#efefef), to(#fff)),url('../images/additional/sort_desc.png');
+    background-image:-moz-linear-gradient(#efefef, #fff),url('../images/additional/sort_desc.png');
+    background-image:url('../images/additional/sort_desc.png'),linear-gradient(#efefef,#fff);
+    -pie-background:linear-gradient(#efefef,#fff),url('../images/additional/sort_desc.png'); 
+    background-image: url('../images/additional/sort_desc.png') no-repeat; 
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+form#search_all_airline .gtable thead th.sort-asc{
+    background-image:-webkit-gradient(linear, 0 0, 0 bottom, from(#efefef), to(#fff)),url('../images/additional/sort_asc.png');
+    background-image:-moz-linear-gradient(#efefef, #fff),url('../images/additional/sort_asc.png');
+    background-image:url('../images/additional/sort_asc.png'),linear-gradient(#efefef,#fff);
+    -pie-background:linear-gradient(#efefef,#fff),url('../images/additional/sort_asc.png'); 
+    background-image: url('../images/additional/sort_asc.png') no-repeat; 
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+
+/* arrow */
+form#search_all_airline .moreaffordable{float:left;width:47%}
+form#search_all_airline .moreaffordable .arrowleft{background:url("../images/airlines/gos/arrowleft.png") no-repeat left;width:45%;float:left;display:block}
+form#search_all_airline .moreaffordable span{float:right}
+form#search_all_airline .moreflexible .arrowright{background:url("../images/airlines/gos/arrowRight.png") no-repeat right;width:55%;float:right;display:block}
+form#search_all_airline .moreflexible span{float:left}
+form#search_all_airline .moreflexible{float:right;width:46%}
+/*
+form#search_all_ailine td .arrowhead{background:url(images/arrowhead.png) no-repeat left;display:block;float:left;width:15px;height:12px}
+form#search_all_ailine td .arrowbody{background:url(images/arrowbody.png) no-repeat left;display:block;width:200px}
+*/
+form#search_all_airline td .moreaffordable p{float:right;margin:0;padding:0}
+/* box */
+form#search_all_airline p{margin:0 !important}
+form#search_all_airline .box{background:#fff;border:1px solid #838383;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;-moz-box-shadow:1px 1px 4px #f4f4f4;margin-bottom:15px}
+form#search_all_airline .box h2{color:#000;font-size:13px;font-weight:bold;height:18px;padding:0 10px 5px;position:absolute}
+form#search_all_airline .box .section{font-size:11px;padding:10px}
+form#search_all_airline .box .main-content{padding:5px 10px 0;font-size:11px;margin:35px 0 -10px}
+/* icon */
+form#search_all_airline .outbound{background:url("../images/airlines/gos/plane-out.png") no-repeat #fff;border:1px solid #000;display:block;height:20px;-moz-border-radius:4px;margin-top:5px;-webkit-border-radius:4px;width:22px;margin:5px;float:left}
+form#search_all_airline .inbound{background:url("../images/airlines/gos/plane-in.png") no-repeat #fff;border:1px solid #000;display:block;height:20px;-moz-border-radius:4px;margin-top:5px;-webkit-border-radius:4px;width:22px;margin:5px;float:left}
+/* search all airline end*/
+
+/*Trigana Style*/
+#trigana_search .OliveFormTABLE,#detil_Itinerary .OliveFormTABLE,#moredetail_booking_cntn .OliveFormTABLE{width:100%;border : 0px}
+#trigana_search .OliveColumnTD,#detil_Itinerary .OliveColumnTD,#moredetail_booking_cntn .OliveColumnTD{background-color:#14A4C2;color:#FFFFCC;font-family:arial;font-weight:bold;font-size : 12px;text-align : center}
+#trigana_search .OliveAltDataTD,#trigana_search .OliveDataTD,#detil_Itinerary .OliveAltDataTD,#moredetail_booking_cntn .OliveAltDataTD,#moredetail_booking_cntn .OliveDataTD{padding : 4px;background-color : #FFFACD;border-bottom: 1px solid #fff;text-align: center}
+ /*end of trigana*/
+
+/*Indonesia air Style*/
+#iat_search .OliveFormTABLE,#detil_Itinerary .OliveFormTABLE,#moredetail_booking_cntn .OliveFormTABLE{width:100%;border : 0px}
+#iat_search .OliveColumnTD,#detil_Itinerary .OliveColumnTD,#moredetail_booking_cntn .OliveColumnTD{background-color:#14A4C2;color:#FFFFCC;font-family:arial;font-weight:bold;font-size : 12px;text-align : center}
+#iat_search .OliveAltDataTD,#iat_search .OliveDataTD,#detil_Itinerary .OliveAltDataTD,#moredetail_booking_cntn .OliveAltDataTD,#moredetail_booking_cntn .OliveDataTD{padding : 4px;background-color : #FFFACD;border-bottom: 1px solid #fff;text-align: center}
+ /*end of trigana*/
+ 
+/* Kalstar begin */
+#kalstar_cek_class .table{clear: both;margin: 0px 25px;padding: 0 0 15px;width:96%}
+#kalstar_cek_class .table th {background: url("../images/airlines/kalstar/layoutsprites1.jpg") repeat-x;background-position: 0 -206px;color: #0E4FC3;font-family: verdana;font-size: 10px;font-weight: 700;padding: 6px;text-align:left;border:1px solid #9AC1C9}
+#kalstar_cek_class tr.standardTable_Row1 {background-color: #FFFFFF;border-top: 1px solid #9AC1C9;}
+#kalstar_cek_class tr.standardTable_Row2 {background-color: #F6F6F6;border-top: 1px solid #9AC1C9;}
+#kalstar_cek_class .standardTable_Column, .standardTable_Column1 {border: 1px solid #9AC1C9;font-family: verdana;font-size: 10px;padding: 5px;text-align: left;vertical-align: top;}
+#kalstar_cek_class td.rowOdd {background-color: #fff !important}
+#kalstar_cek_class td.rowEven {background-color: #e6e6e6 !important}
+/* Kalstar end */
+
+/* citilink navitaire begin */
+#citilink_cek_class table{border:0;border-collapse:collapse;margin:5px;padding:0;clear:both;empty-cells:show;}
+#citilink_cek_class table tr th{color:#00a74a;font-weight:bold;height:23px;padding:2px 4px;text-align:left;white-space:nowrap;}
+#citilink_cek_class table caption{font-weight:bold;text-align:left;margin:0;padding:5px;}
+#citilink_cek_class table tr td{margin:2px 0 2px 10px;padding:4px;}
+#citilink_cek_class thead{font-weight:bold;}
+#citilink_cek_class .altRowItem{background-color:#f8f8f8;}
+#citilink_cek_class .rowItem{background-color:#e0e0e0;}
+#citilink_cek_class tr.alt td{background-color:#f8f8f8;}
+#citilink_cek_class tr.over td{background:#eef3fc;}
+#citilink_cek_class .center {text-align: center;}
+#citilink_cek_class .availabilityTable{margin:5px 3px;empty-cells:show;border:1px solid #d9d9d9;}
+#citilink_cek_class .availabilityTable tr th{border-top:1px solid #bbb;border-bottom:1px solid #bbb;}
+#citilink_cek_class .availabilityTable tr th span{margin-left:20px;}
+#citilink_cek_class .availabilityTable tr td{margin:0;padding:4px;border-bottom:1px solid #bbb;}
+#citilink_cek_class .availabilityTable h6{margin-top:10px;}
+#citilink_cek_class .fareCol1,.fareCol1 a{background-color:#00a74a;color:#fff;}
+#citilink_cek_class .fareCol2,.fareCol2 a{background-color:#00674a;color:#fff;}
+#citilink_cek_class .fareCol3,.fareCol3 a{background-color:#d8d8d8;color:#000;}
+#citilink_cek_class .fareCol1 p, #citilink_cek_class .fareCol2 p{color:#fff!important;}
+#citilink_cek_class .fareCol1 input[type="radio"], .fareCol2 input[type="radio"]{margin-right:8px!important;margin-left:15px!important;}
+#citilink_cek_class .w99{width:99%;}
+#citilink #itineraryBody{position:relative}
+#citilink #itineraryBody div{clear:both}
+#citilink #itineraryBody h2{clear:both;color:#959595;font-size:12px;font-weight:400}
+#citilink #itineraryBody h2 span{color:#10a210;float:left;font-size:1em;letter-spacing:3px;margin:5px 5px 5px 10px}
+#citilink #itineraryBody h6{float:left;margin:10px 5px 10px 10px}
+#citilink #itineraryBody p{margin:2px 10px;font-size:12px}
+#citilink #itineraryBody,#itineraryBody li,#itineraryBody td{font-size:12px}
+#citilink #itinerarySeatAssignmentsTable td{white-space:nowrap}
+#citilink .barcode_n{position:absolute;right:50px;top:10px}
+#citilink .book-inf-txt{color:#959595!important;width:190px}
+#citilink .flight-table-pay{border:1px solid #d9d9d9;clear:both;margin-left:13px;margin-top:10px}
+#citilink .flight-table-pay td{border-bottom:1px solid #d9d9d9;color:#464646;font-size:11px;padding:2px 8px;vertical-align:middle;border-bottom:1px solid #d9d9d9;color:#464646;font-size:11px;padding:2px 8px;vertical-align:middle}
+#citilink .flight-table-pay td strong{color:#555;display:block}
+#citilink .flight-table-pay th{border-bottom:1px solid #d9d9d9;color:#00a74a;font-weight:700;padding:3px 8px}
+#citilink .flightDisplay_IT table td{width:317px}
+#citilink .onwardh6{float:left;width:285px!important}
+#citilink .onwardh6 h6{padding:0 0 5px 20px!important;font-size:11px!important;margin:0!important}
+#citilink .onwardh6 p{padding:0 0 5px 20px!important;margin:0!important}
+#citilink .padt0i{padding-top:0!important}
+#citilink .primary-left{color:#959595;float:left;margin-bottom:0;padding:16px;width:636px;border-bottom:0 none;color:#959595;float:left;margin-bottom:0;padding:16px;width:636px}
+#citilink .primary-left h2{color:#00a74a;font-size:16px;font-weight:700;padding-bottom:10px}
+#citilink .primary-left h6{font-size:13px;margin-left:0;margin-right:15px;font-size:13px;margin-left:0;margin-right:15px}
+#citilink .right{text-align:right}
+#citilink .sec-head-grad-grn{background-image:-moz-linear-gradient(center bottom,#fff 0px,#e3e3e3 100%);padding-left:15px!important}
+#citilink .sectionHeader{background-image:-moz-linear-gradient(left center,#eee 0px,#999 100%);clear:both;color:#00a74a;font:bold 10pt Calibri,Arial,Helvetica,sans-serif;height:20px;margin:10px 15px 10px 0;padding:10px 0 0;text-transform:uppercase}
+#citilink .sectionHeader1{clear:both;color:#00a74a;font:bold 10pt Calibri,Arial,Helvetica,sans-serif;height:20px;margin:0 0 10px;padding:10px 0 0;text-transform:uppercase}
+#citilink h2{color:#fff;font:75%/1.3333 Calibri,Arial,Helvetica,sans-serif;margin:5px 10px}
+#citilink span{margin:0;padding:0}
+#citilink table{width:98.5%;border:0 none;border-collapse:collapse;clear:both;empty-cells:show;margin:5px;padding:0}
+#citilink table tr td{margin:2px 0 2px 10px;padding:4px}
+#citilink table tr th{color:#00a74a;font-weight:700;height:23px;padding:2px 4px;text-align:left;white-space:nowrap}
+#citilink thead{font-weight:700}
+/* citilink navitaire end */
+
+/* .list_pnr */
+.list_pnr {border-collapse: collapse;font-size: 10px;margin: 0;padding: 0;width: 100%;}
+.list_pnr th {border-bottom: 1px solid #CDCDCD;padding: 5px;text-align: left;}
+
+/* express new begin */
+#express_class h1{font-size:14px}
+#express_class h3{font-size: 20px;}
+#express_class table, #express_class .destination1, #express_class .destination2{margin:0}
+#express_class table.colored{position:relative}
+#express_class table.colored, #express_class table.nonc{width:99%;margin-top:0}
+#express_class table.colored tr.active td.last{font-weight:700}
+#express_class table th, #express_class table td{font-family:arial, #express_class sans-serif}
+#express_class table.colored td{font-size:12px;padding:6px 5px;border-bottom:1px solid #d5d5d5;background:#FBF8F3}
+#express_class table.summary th.border_white{border-right:2px solid #fff}
+#express_class table.summary td.border_white{border-right:2px solid #fff}
+#express_class table.summary td{font-size:12px;padding:7px 8px;border-bottom:0 solid #d5d5d5;background:#FBF8F3}
+#express_class table.colored td.rules{background:#fff}
+#express_class table.colored td.tdPromo{background:#FDE2E3}
+#express_class table.colored td.tdPromo_active{background:#FDE2E3;border-bottom:0!important}
+#express_class table.colored td.tdNormal{background:#DDECE1}
+#express_class table.colored td.tdNormal_active{background:#DDECE1;border-bottom:0!important}
+#express_class table.colored td.tdPremium{background:#FEFEEF}
+#express_class table.colored td.tdPremium_active{background:#FEFEEF;border-bottom:0!important}
+#express_class table.colored tr.odd td{background:url(../images/airlines/express/table-bg.png) repeat-x left top}
+#express_class table.colored tr:hover.odd td{background:url(../images/airlines/express/table-bg-hover.png) repeat-x left top}
+#express_class table.colored tr.active td{background:url(../images/airlines/express/table-bg-active.png) repeat-x left top}
+#express_class table.colored tr:hover.active td{background:url(../images/airlines/express/table-bg-active-hover.png) repeat-x left top}
+#express_class table.colored tr:hover td{}
+#express_class table.colored th{background:#DC4D50;color:#fff;padding:8px;border:1px solid #d5d5d5;font-size:12px;font-weight:700;text-align:left;padding:4px}
+#express_class table.colored th.active span{margin-left:3px}
+#express_class table.colored td.first{border-left:1px solid #d5d5d5}
+#express_class table.colored td.last{border-right:1px solid #d5d5d5}
+#express_class table.colored th.first{border-left:1px solid #d5d5d5}
+#express_class table.colored th.last{border-right:1px solid #d5d5d5}
+#express_class table.farerules{background:#fff}
+#express_class table.farerules td{background:#fff}
+#express_class table.farerules th{text-align:center}
+#express_class .outbound-flights h1, #express_class .homebound-flights h1{font-size:16px;font-size-adjust:.488;font-weight:700;font-style:normal;color:#074e8d;margin:0 !important;padding:0 !important}
+#express_class .outbound-flights h1 span, #express_class .homebound-flights h1 span{font-weight:400;font-style:normal;display:inline;color:#111}
+#express_class .destination1 img, #express_class .destination2 img{margin-right:20px}
+#express_class .destination2 img{margin-top:-7px}
+#express_class .destination1 span, #express_class .destination2 span{display:block}
+#express_class .outbound-flights, #express_class .homebound-flights{margin-bottom:10px}
+#express_class .smallprint, .smallprint a {color: #0097C2;font-size: 90%;margin-bottom: 5px;}
+#express_class table.summary td {font-size: 12px;padding: 7px 8px 7px 8px;border-bottom: 0px solid #d5d5d5;background:#F9F5ED;}
+#express_class table.colored td.fareSumary1 {background:#F8F8F8;}
+#express_class table.colored td.fareSumary2 {background:#EFEFF0;}
+#express_class table.colored td.fareSumary3 {background:#F0EADB;}
+/* express new end */
+
+.hide-this-element{display: none !important;}
+
