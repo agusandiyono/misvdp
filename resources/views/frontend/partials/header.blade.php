@@ -74,7 +74,7 @@
                     <div class="hor-menu  ">
                         <ul class="nav navbar-nav">
                           <li class="{{ Request::is('/admin/home') ? 'active' : '' }}">
-                              <a href="/admin/home"><i class="icon-settings"></i> Administrator
+                              <a href="{{url('admin/home')}}"><i class="icon-settings"></i> Administrator
 
                               </a>
                           </li>

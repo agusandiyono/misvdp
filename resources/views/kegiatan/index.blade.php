@@ -8,7 +8,7 @@
             <h3 class="modal-title">{{ $result->total() }} Kegiatan</h3>
         </div>
         <div class="col-md-7 page-action text-right">
-            @can('add_ikus')
+            @can('add_kegiatans')
                 <a href="{{ route('kegiatan.create') }}" class="btn btn-primary btn-sm"> <i class="glyphicon glyphicon-plus-sign"></i> Tambah Baru</a>
             @endcan
         </div>

@@ -177,7 +177,7 @@
       $('#provinsi_id').on('change', function(e){
         console.log(e);
         var provinsi_id = e.target.value;
-        $.get('/json-kabupaten?provinsi_id=' + provinsi_id,function(data) {
+        $.get('{{ url('/') }}/json-kabupaten?provinsi_id=' + provinsi_id,function(data) {
           console.log(data);
           $('#kabupaten_id').empty();
           $('#kabupaten_id').append('<option value="" disable="true" selected="true">Pilih Kabupaten</option>');
@@ -197,7 +197,7 @@
       $('#kabupaten_id').on('change', function(e){
        console.log(e);
        var kabupaten_id = e.target.value;
-       $.get('/json-kecamatan?kabupaten_id=' + kabupaten_id,function(data) {
+       $.get('{{ url('/') }}/json-kecamatan?kabupaten_id=' + kabupaten_id,function(data) {
          console.log(data);
          $('#kecamatan_id').empty();
          $('#kecamatan_id').append('<option value="" disable="true" selected="true">Pilih Kecamatan</option>');
@@ -214,7 +214,7 @@
      $('#kecamatan_id').on('change', function(e){
         console.log(e);
         var kecamatan_id = e.target.value;
-        $.get('/json-desa?kecamatan_id=' + kecamatan_id,function(data) {
+        $.get('{{ url('/') }}/json-desa?kecamatan_id=' + kecamatan_id,function(data) {
           console.log(data);
           $('#desa_id').empty();
           $('#desa_id').append('<option value="" disable="true" selected="true">Pilih Desa</option>');
